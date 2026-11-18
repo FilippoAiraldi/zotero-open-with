@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Open With",
+  "version": "1.0.2",
+  "description": "Adds an \"Open with <App>\" entry to the item context menu to open PDFs in a second viewer (e.g. Adobe Acrobat for commenting).",
+  "icons": {
+    "48": "icons/icon.svg",
+    "96": "icons/icon.svg"
+  },
+  "applications": {
+    "zotero": {
+      "id": "zotero-open-with@local.plugin",
+      "update_url": "https://localhost/zotero-open-with/updates.json",
+      "strict_min_version": "8.0",
+      "strict_max_version": "10.*"
+    }
+  }
+}

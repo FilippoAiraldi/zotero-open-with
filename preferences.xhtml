@@ -1,0 +1,26 @@
+<linkset>
+	<html:link rel="localization" href="open-with.ftl"/>
+</linkset>
+<vbox id="zotero-open-with-prefs-root">
+	<groupbox>
+		<label><html:h2 data-l10n-id="open-with-prefs-heading"/></label>
+		<html:p data-l10n-id="open-with-prefs-description"/>
+
+		<label data-l10n-id="open-with-prefs-app-path-label" control="zotero-open-with-app-path"/>
+		<hbox align="center">
+			<html:input type="text"
+				id="zotero-open-with-app-path"
+				preference="extensions.zotero-open-with.appPath"
+				style="flex: 1; min-width: 20em;"/>
+			<button id="zotero-open-with-browse" data-l10n-id="open-with-prefs-browse"/>
+		</hbox>
+		<html:p id="zotero-open-with-detected" class="form-text" style="opacity: 0.75;"/>
+
+		<label data-l10n-id="open-with-prefs-app-name-label" control="zotero-open-with-app-name"/>
+		<html:input type="text"
+			id="zotero-open-with-app-name"
+			preference="extensions.zotero-open-with.appName"
+			data-l10n-id="open-with-prefs-app-name-input"
+			style="min-width: 20em;"/>
+	</groupbox>
+</vbox>
