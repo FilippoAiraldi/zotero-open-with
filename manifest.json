@@ -9,8 +9,8 @@
   },
   "applications": {
     "zotero": {
-      "id": "zotero-open-with@local.plugin",
-      "update_url": "https://localhost/zotero-open-with/updates.json",
+      "id": "zotero-open-with@filippoairaldi",
+      "update_url": "https://raw.githubusercontent.com/FilippoAiraldi/zotero-open-with/master/updates.json",
       "strict_min_version": "8.0",
       "strict_max_version": "10.*"
     }
